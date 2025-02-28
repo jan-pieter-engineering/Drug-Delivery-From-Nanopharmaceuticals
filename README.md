@@ -2,7 +2,7 @@
 
 Dieser <a href="https://github.com/jan-pieter-engineering/Drug-Delivery-From-Nanopharmaceuticals/blob/master/thesis/thesis.pdf" style="color: red; text-decoration: underline;text-decoration-style: dotted; font-weight:bold;">Arbeit</a> liegt ein [Experiment](#Experiment) zugrunde, das die [Freisetzungskurve](https://de.wikipedia.org/wiki/Pharmakokinetik) des Wirkstoffs [Gentamicin](https://de.wikipedia.org/wiki/Gentamicin) (GM), der
 in eine [Medikamentenmatrix](https://de.wikipedia.org/wiki/Pharmazeutischer_Hilfsstoff) eingebettet wurde, bestimmt.
-Dazu wurde ein [Python3-Quelltext](./) entwickelt, der mit Hilfe von [FEniCS Legacy](https://fenicsproject.org/download/archive/) das 15-wöchige Experiment innerhalb ca. einer halben Stunde mit einem Bestimmtheitsmaß von $\Re_{0, \, 10}^2 \approx 0.9899$ voraussagen kann.
+Dazu wurde ein [Python3-Quelltext](./) entwickelt, der mit Hilfe von [FEniCS Legacy](https://fenicsproject.org/download/archive/) das 15-wöchige Experiment innerhalb ca. einer halben Stunde mit einem Bestimmtheitsmaß von $\Re_{0, 10}^2 \approx 0.9899$ voraussagen kann.
 
 Die Simulation lässt sich durch folgende Konsoleneingabe starten:  
 ``python3 main.py ``
