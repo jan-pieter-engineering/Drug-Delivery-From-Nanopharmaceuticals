@@ -15,8 +15,9 @@ Untenstehende Abbildung 1 illustriert den Ablauf des Python-Quelltexts. In [para
 
 <figure>
   <img src="./pictures/Flowchart_Quelltext.svg" alt="Image description">
-  <figcaption>Abb. 1: Programmablaufplan des Quelltexts.</figcaption>
-</figure>  
+  <figcaption>Abb. 1: Programmablaufplan des Quelltexts.    
+  </figcaption><br>
+</figure><br>
 
 Diese einheitenlosen Parameter werden in [parameters.py](./parameters.py), neben weiteren Hilfsparametern, gespeichert und zusammen an [main.py](./main.py) übergeben. Dort kann der Nutzer folgende Menuwahl (siehe [menu.py](./menu.py)) treffen: 
 1. Simulation des physikalischen Modells (vgl. Kapitel [5.2](./thesis/thesis.pdf#Zeitliche_Diskretisierung))
@@ -30,8 +31,8 @@ Alle oben genannten, möglichen [Programmabläufe](#Quelltext) verwenden im letz
 
 <figure>
   <img src="./pictures/Flowchart_physikalisches_Modell.svg" alt="Image description">
-  <figcaption>Abb. 2: Programmablaufplan der Implementierung des räumlich und zeitlich diskretisierten physikalischen Modells.</figcaption>
-</figure>
+  <figcaption>Abb. 2: Programmablaufplan der Implementierung des räumlich und zeitlich diskretisierten physikalischen Modells.</figcaption><br>
+</figure><br>
 
 Im Zentrum steht der Quelltext [model.py](./model.py). Darüber hinaus findet sich die Implementierung der konstanten bzw. parabelförmigen Startkonzentrationsverteilung $\tilde{c} \left ( \tilde{r}, \tilde{t}=0 \right)$ (vgl. Kapitel [3.2.2](./thesis/thesis.pdf#Wirkstoffverteilung-innerhalb-der-Matrix) in einheitenbehafteter Darstellung) in [u_0.py](./u_0.py). Die Implementierung der <span style="font-variant:small-caps;">Robin</span>-Randbedingung (vgl. Kapitel [5.2.3](./thesis/thesis.pdf#Zeitliche_Diskretisierung_Randbedingungen) und [5.2.4](./thesis/thesis.pdf#Zeitliche_Diskretisierung_Stoffübergangskoeffizient)) ist im Quelltext [boundary_conditions.py](./boundary_conditions.py) hinterlegt, die der Diffusionsgleichung der Umgebungslösung (vgl. Kapitel [5.2.5](./thesis/thesis.pdf#Zeitliche_Diskretisierung_Diffusionsgleichung_der_Umgebungslösung)) im Quelltext [surrounding_solution.py](./surrounding_solution.py). In [mesh_domains_boundaries.py](./mesh_domains_boundaries.py) findet sich die Implementierung der räumlichen Diskretisierung der hohlzylinderförmigen Medikamentenmatrix $\tilde{\Omega}\_\mathrm{m}$ (vgl. Kapitel [5.3.1](./thesis/thesis.pdf#Räumliche_Diskretisierung)). Im Falle der Konvergenzanalyse (vgl. Kapitel [5.4](./thesis/thesis.pdf#Konvergenzanalyse) wird ein Quellterm aus [source_term.py](./source_term.py) zugeschaltet. Ansonsten ist dieser Wert, entsprechend einer homogenen Diffusionsgleichung, null.  
 [model.py](./model.py) bekommt [u_0.py](./u_0.py), [source_term.py](./source_term.py), [surrounding_solution.py](./surrounding_solution.py), [mesh_domains_boundaries.py](./mesh_domains_boundaries.py), [boundary_conditions.py](./boundary_conditions.py) und den aus Übersichtsgründen nicht dargestellten Quelltext [degradation.py](./degradation.py) (vgl. Kapitel [5.2.2](./thesis/thesis.pdf#Zeitliche_Diskretisierung_Degradationsmodell)) als Input übergeben.  
@@ -45,8 +46,8 @@ GM diffundiert während des Experiments aus der Medikamentenmatrix $\Omega_\math
 
 <figure>
   <img src="./pictures/Experiment.svg" alt="Image description">
-  <figcaption>Abb. 3: Versuchsaufbau: Mit 10 % GM-Massenanteil versehene, biokompatible, biologisch abbaubare, nanoporöse, hohlzylinderförmige PLA-Matrix in Umgebungslösung auf Magnetrührer bei 100 UpM. [Macha et al., [2019], [MicrobeNotes]</figcaption>
-</figure>
+  <figcaption>Abb. 3: Versuchsaufbau: Mit 10 % GM-Massenanteil versehene, biokompatible, biologisch abbaubare, nanoporöse, hohlzylinderförmige PLA-Matrix in Umgebungslösung auf Magnetrührer bei 100 UpM. [Macha et al., [2019], [MicrobeNotes]</figcaption><br>
+</figure><br>
 
 Diese gerollten Streifen, die zuvor mit einem GM-Massenanteil von 10 \% versehen wurden, werden zusammen mit der Umgebungslösung $\Omega_\mathrm{s}$ in ein konisches $\mathrm{Falcon}^{\mathrm{TM}}$-Röhrchen gegeben. Als Umgebungslösung $\Omega_\mathrm{s}$, welche physikalische Eigenschaften ähnlich denen von Körperflüssigkeiten inne hat, wird phosphatgepufferte Kochsalzlösung verwendet. Die Lösung hatte ein Volumen von $V_\mathrm{s} = 1.5 \times 10^4 \mathrm{mm^3}$, einen $\mathit{pH}$-Wert von $\mathit{pH} = 7.4$, wird über das Experiment hinweg auf Körpertemperatur ($T = 37\pm 0.1 ^{\circ} \mathrm{C}$) gehalten und mit Hilfe eines Magnetrührers bei $n = 100 \frac{1}{\mathrm{min}}$ Umdrehungen gerührt.  
 
@@ -58,8 +59,8 @@ definiert ist. $c_\mathrm{s} \left ( t \right) \mathrm{\left [ \frac{g}{mm^3} \r
 
 <figure>
   <img src="./pictures/Freisetzungskurve.svg" alt="Image description">
-  <figcaption>Abb. 4: GM-Freisetzungsverlauf F(t) [-] über 15 Wochen. Blaue Rechtecke beschreiben die gemessenen Konzentrationswerte. Dazwischen wird linear interpoliert.</figcaption>
-</figure>  
+  <figcaption>Abb. 4: GM-Freisetzungsverlauf F(t) [-] über 15 Wochen. Blaue Rechtecke beschreiben die gemessenen Konzentrationswerte. Dazwischen wird linear interpoliert.</figcaption><br>
+</figure><br>  
 
 Zwischen den gemessenen Datenpunkten wird linear interpoliert.
 
