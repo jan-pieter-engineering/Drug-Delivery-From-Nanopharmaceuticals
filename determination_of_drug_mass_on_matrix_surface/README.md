@@ -1,4 +1,4 @@
-Im Rahmen deser [Arbeit](../thesis/thesis.pdf) wurde die Gentamicin-Masse, die sich auf der Matrixoberfläche befindet, mit Hilfe eines Octave-Programmes bestimmt. Dazu wurde die Gentamicin-Masse auf einer REM-Aufnahme der Matrixoberfläche berechnet und auf die gesamte Matrixoberfläche hochgerechnet. Der entsprechende Ablauf kann Kapitel [3.2.1](../thesis/thesis.pdf#Oberfläche) entnommen werden. Abbildung 1 zeigt auf die REM-Aufnahme der Matrixoberfläche.
+Im Rahmen dieser [Arbeit](../thesis/thesis.pdf) wurde die Gentamicin-Masse $m\_{\mathrm{d}, \Gamma}$ , die sich auf der Matrixoberfläche $\Gamma\_{\mathrm{m}}$ befindet, mit Hilfe eines [Octave-Programmes](./drug_mass_on_matrix_surface.m) bestimmt. Dazu wurde die Gentamicin-Masse $m\_{\mathrm{d, REM}}$ auf einer REM-Aufnahme der Matrixoberfläche $\Gamma\_{\mathrm{m}, REM}$ berechnet und auf die gesamte Matrixoberfläche $\Gamma\_{\mathrm{m}}$ hochgerechnet. Der entsprechende Ablauf kann Kapitel [3.2.1](../thesis/thesis.pdf#Oberfläche) entnommen werden. Abbildung 1 zeigt die REM-Aufnahme der Matrixoberfläche.
 
 <figure>
   <img src="../pictures/REM_PLAGM.PNG" alt="Image description">
