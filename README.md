@@ -83,6 +83,7 @@ Ansatzpunkte für weiterführende Arbeiten sind die zu hoch vorausgesagte Wirkst
 
 Im Rahmen dieser Arbeit wurde mit Hilfe eines [Octave-GNU-Quelltextes](./determination_of_drug_mass_on_matrix_surface/drug_mass_on_matrix_surface.m) die Gentamicin-Masse, die sich auf der Medikamentenmatrix befindet, berechnet.
 Dieser Quelltext hat den Namen  
-```drug_mass_on_matrix_surface.m```  
-und liegt im Ordner ```./determination_of_drug_mass_on_matrix_surface```.  
+[```drug_mass_on_matrix_surface.m```](./determination_of_drug_mass_on_matrix_surface/drug_mass_on_matrix_surface.m)  
+und liegt im Ordner  
+[```./determination_of_drug_mass_on_matrix_surface```](./determination_of_drug_mass_on_matrix_surface).  
 Für weitere Information ziehen Sie [README.md](./determination_of_drug_mass_on_matrix_surface/README.md) im selbigen Ordner zurate.
