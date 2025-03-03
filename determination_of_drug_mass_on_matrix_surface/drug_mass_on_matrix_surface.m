@@ -7,7 +7,7 @@ pkg load image
 REM=imread('REM_ohne_Legende.png');
 
 % --------------------------------------------
-% Convert REM picture into processible format
+% I. Convert REM picture into processible format
 % --------------------------------------------
 % 1. Convert into grayscale picture
 REM_gray=rgb2gray(REM);
@@ -31,7 +31,7 @@ disp('');
 
 
 % --------------------------------------------
-% Specify REM area
+% II. Specify REM area
 % --------------------------------------------
 disp('R E M  -  A U F N A H M E');
 
@@ -57,7 +57,7 @@ disp('');
 
 
 % --------------------------------------------
-% Specify particle geometry
+% III. Specify particle geometry
 % --------------------------------------------
 disp('P A R T I K E L G E O M E T R I E');
 
@@ -88,7 +88,7 @@ disp('');
 
 
 % --------------------------------------------
-% Specify drug loading
+% IV. Specify drug loading
 % --------------------------------------------
 disp('M E D I K A M E N T E N L A D U N G');
 
