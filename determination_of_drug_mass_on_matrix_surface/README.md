@@ -5,6 +5,7 @@ Im Rahmen dieser [Arbeit](../thesis/thesis.pdf) wurde die Gentamicin-Masse $m\_{
   <figcaption>Abb. 1: REM-Aufnahme der Oberfläche einer mit GM besetzten PLA-Matrix. Die helleren Bereiche sind GM-Partikel.    
   </figcaption><br>
 </figure><br>
+
 Der [Quellcode](./drug_mass_on_matrix_surface.m) teilt sich dabei in vier Bereiche auf:
 
 - I. Konvertierung der REM-Aufnahme in eine Schwarz-Weiß-Aufnahme (ab Zeile [10](./drug_mass_on_matrix_surface.m#L10))
