@@ -7,9 +7,9 @@ Im Rahmen dieser [Arbeit](../thesis/thesis.pdf) wurde die Gentamicin-Masse $m\_{
 </figure><br>
 Der Quellcode teilt sich dabei in vier Bereiche auf:
 
-- I. Konvertierung der REM-Aufnahme in eine Schwarz-Weiß-Aufnahme (ab Zeile [10](./determination_of_drug_mass_on_matrix_surface/drug_mass_on_matrix_surface.m#L10))
-- II. Bestimmung der REM-Fläche (ab Zeile [34](./determination_of_drug_mass_on_matrix_surface/drug_mass_on_matrix_surface.m#L34))
-- III. Bestimmung der Wirkstoffpartikelgeometrie (ab Zeile [60](./determination_of_drug_mass_on_matrix_surface/drug_mass_on_matrix_surface.m#L60))
-- IV. Bestimmung der Wirkstoffmasse (ab Zeile [91](./determination_of_drug_mass_on_matrix_surface/drug_mass_on_matrix_surface.m#L91))
+- I. Konvertierung der REM-Aufnahme in eine Schwarz-Weiß-Aufnahme (ab Zeile [10](./drug_mass_on_matrix_surface.m#L10))
+- II. Bestimmung der REM-Fläche (ab Zeile [34](./drug_mass_on_matrix_surface.m#L34))
+- III. Bestimmung der Wirkstoffpartikelgeometrie (ab Zeile [60](./drug_mass_on_matrix_surface.m#L60))
+- IV. Bestimmung der Wirkstoffmasse (ab Zeile [91](./drug_mass_on_matrix_surface.m#L91))
 
 Die entsprechenden Ergebnisse werden analog in Kapitel [3.2.1](../thesis/thesis.pdf#Oberfläche) aufbereitet.
