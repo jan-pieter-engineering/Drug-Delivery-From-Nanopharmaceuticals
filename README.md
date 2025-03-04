@@ -86,4 +86,4 @@ Dieser Quelltext hat den Namen
 [```drug_mass_on_matrix_surface.m```](./determination_of_drug_mass_on_matrix_surface/drug_mass_on_matrix_surface.m)  
 und liegt im Ordner  
 [```./determination_of_drug_mass_on_matrix_surface```](./determination_of_drug_mass_on_matrix_surface).  
-Für weitere Information ziehen Sie [README.md](./determination_of_drug_mass_on_matrix_surface/README.md) im selbigen Ordner zurate.
+Für weitere Information ziehen Sie die [README.md](./determination_of_drug_mass_on_matrix_surface/README.md)-Datei im selbigen Ordner zurate.
